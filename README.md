@@ -11,3 +11,9 @@
 - We can enter many .json files into the program at the same time. We give them, separated by spaces, after the program name.
 
 - Adding new rules can be done by adding them as methods in the class and respectively one line in the main program.
+
+------
+###### you can try program for example by typing:
+```ruby
+airhelp.rb raw.json raw2.json
+```
