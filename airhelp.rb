@@ -63,6 +63,6 @@ for i in 0..number_of_dirs-1
 
     #save results
     File.open(ARGV[i],"w") do |f|
-        f.write(raw_input[i-1].to_json)
+        f.write(raw_input[i].to_json)
     end
 end
